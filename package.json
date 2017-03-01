@@ -23,7 +23,7 @@
     "tmj-passport": "^1.0.0",
     "socket.io": "^1.7.1"
   },
-  "devDepencies": {
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-uglify": "^2.0.0",
