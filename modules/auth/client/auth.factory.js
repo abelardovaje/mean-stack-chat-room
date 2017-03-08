@@ -3,6 +3,7 @@
 
     angular.module('auth')
         .factory('AuthFactory', AuthFactory);
+
     AuthFactory.$inject = ['$http'];
 
     function AuthFactory($http) {

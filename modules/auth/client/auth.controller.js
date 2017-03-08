@@ -3,6 +3,7 @@
 
     angular.module('auth')
         .controller('AuthController', AuthController);
+
     AuthController.$inject = ['AuthFactory'];
 
     function AuthController(AuthFactory) {

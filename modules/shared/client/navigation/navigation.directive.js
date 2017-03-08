@@ -3,6 +3,7 @@
 
     angular.module('navigation')
         .directive('href', href);
+
     href.$inject = [];
 
     function href() {

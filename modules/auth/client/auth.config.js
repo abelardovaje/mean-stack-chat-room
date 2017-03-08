@@ -3,6 +3,7 @@
 
     angular.module('auth')
         .config(config);
+
     config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider'];
 
     function config($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {

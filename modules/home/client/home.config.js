@@ -8,6 +8,7 @@
 
     angular.module('home')
         .config(config);
+
     config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
     function config($stateProvider, $urlRouterProvider, $locationProvider) {

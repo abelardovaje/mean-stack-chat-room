@@ -3,6 +3,7 @@
 
     angular.module('home')
         .controller('HomeController', HomeController);
+
     HomeController.$inject = [];
 
     /* @ngInject */

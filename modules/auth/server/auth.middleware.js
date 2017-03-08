@@ -2,8 +2,18 @@
 
 module.exports = function (method) {
     var methods = {
-        protected: require('./middleware/protected')
+        protect: protect
     };
 
     return methods[method]();
+
+    function protect() {
+        return function (req, res, next) {
+            if ( !! req.session.passport && !! req.session.passport.user ) {
+                return next();
+            }
+
+            res.redirect('/login');
+        }
+    }
 };
